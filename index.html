@@ -4,13 +4,14 @@
    <meta charset="UTF-8">
    <title>Brian's Watch Website</title>
    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
 </head>
 <body>
     <br>
  <div id="navcontainer">
     <nav>
         <div class="logo">
-            <img id="logo" src="BClogo.avif">
+            <img id="logo" src="images/BClogo.avif">
         </div>
         <div class="navbar">
             Home
@@ -27,8 +28,8 @@
         <div class="navbar">
             About
         </div>
-        <div>
-            Log In
+        <div id="loginnav">
+            <a href="index2.html" target="_blank">Login</a>
         </div>
     </nav>
  </div>
@@ -36,7 +37,7 @@
     <br>
 
     <div id="backgroundImage">
-        <img id="BGImage"src="WatchBG.jpg">
+        <img id="BGImage"src="images/WatchBG.jpg">
     </div>
 
     <div class="headings">
@@ -48,47 +49,47 @@
 
     <div class="smallImages">
      <div>
-        <img class="watchpic prestige" src="Prestige.jpg">
-        <p class="prestige">
+        <img class="watchpic" id="popUp1" src="images/Prestige.jpg">
+        <div class="prestige">
             <p class="subhead">Prestige</p>
             <ul class="prestige">
-               <li><a href="https://www.patek.com/en/home" target="_blank">Patek Philippe Geneve</a></li>
-               <li><a href="https://www.rolex.com/en-us/watchmaking/excellence-in-the-making/hallmarks-of-excellence?gclid=CjwKCAjwzo2mBhAUEiwAf7wjki69SwdLsofsVXWkZge2ygdJu-e2F1KpoJpeTgfuzBpX9C6uwWZIeRoCk0gQAvD_BwE&ef_id=CjwKCAjwzo2mBhAUEiwAf7wjki69SwdLsofsVXWkZge2ygdJu-e2F1KpoJpeTgfuzBpX9C6uwWZIeRoCk0gQAvD_BwE:G:s&s_kwcid=AL!141!3!660516543537!e!!g!!rolex!8684308457!87935379260" target="_blank">Rolex</a></li>
-               <li><a href="https://www.vacheron-constantin.com/us/en/home.html" target="_blank">Vacheron Constantin Geneve</a></li>
-               <li><a href="https://www.bovet.com/" target="_blank">Bovet</a></li>
-               <li><a href="https://www.debethune.ch/en" target="_blank">De Bethune</a></li>
-               <li><a href="https://www.lang-und-heyne.de/en/watches/" target="_blank">Lang & Heyne</a></li>
+               <li class="list"><a href="https://www.patek.com/en/home" target="_blank">Patek Philippe Geneve</a></li>
+               <li class="list"><a href="https://www.rolex.com/en-us/watchmaking/excellence-in-the-making/hallmarks-of-excellence?gclid=CjwKCAjwzo2mBhAUEiwAf7wjki69SwdLsofsVXWkZge2ygdJu-e2F1KpoJpeTgfuzBpX9C6uwWZIeRoCk0gQAvD_BwE&ef_id=CjwKCAjwzo2mBhAUEiwAf7wjki69SwdLsofsVXWkZge2ygdJu-e2F1KpoJpeTgfuzBpX9C6uwWZIeRoCk0gQAvD_BwE:G:s&s_kwcid=AL!141!3!660516543537!e!!g!!rolex!8684308457!87935379260" target="_blank">Rolex</a></li>
+               <li class="list"><a href="https://www.vacheron-constantin.com/us/en/home.html" target="_blank">Vacheron Constantin Geneve</a></li>
+               <li class="list"><a href="https://www.bovet.com/" target="_blank">Bovet</a></li>
+               <li class="list"><a href="https://www.debethune.ch/en" target="_blank">De Bethune</a></li>
+               <li class="list"><a href="https://www.lang-und-heyne.de/en/watches/" target="_blank">Lang & Heyne</a></li>
             </ul>
-           </p>
+        </div>
      </div>
 
      <div>
-        <img class="watchpic high" class src="High.jpg">
+        <img class="watchpic high" class src="images/High.jpg">
         <p class="high">
             <p class="subhead">High</p>
             <ul class="high">
-               <li><a href="https://www.credor.com/special/fugaku/english.php" target="_blank">Credor</a></li>
-               <li><a href="https://www.piaget.com/?gad=1&gclid=CjwKCAjwzo2mBhAUEiwAf7wjkogzllTd-7JCQw7qUNHdrGQDC96qGlwaNSK4_u95fXIfgGKTWJSlwRoCnekQAvD_BwE&gclsrc=aw.ds" target="_blank">Piaget</a></li>
-               <li><a href="https://www.grand-seiko.com/us-en/" target="_blank">Grand Seiko</a></li>
-               <li><a href="https://www.blancpain.com/en" target="_blank">Blancpain</a></li>
-               <li><a href="https://www.omegawatches.com/en-us/" target="_blank">Omega</a></li>
-               <li><a href="https://www.zenith-watches.com/en_us" target="_blank">Zenith</a></li>
+               <li class="list"><a href="https://www.credor.com/special/fugaku/english.php" target="_blank">Credor</a></li>
+               <li class="list"><a href="https://www.piaget.com/?gad=1&gclid=CjwKCAjwzo2mBhAUEiwAf7wjkogzllTd-7JCQw7qUNHdrGQDC96qGlwaNSK4_u95fXIfgGKTWJSlwRoCnekQAvD_BwE&gclsrc=aw.ds" target="_blank">Piaget</a></li>
+               <li class="list"><a href="https://www.grand-seiko.com/us-en/" target="_blank">Grand Seiko</a></li>
+               <li class="list"><a href="https://www.blancpain.com/en" target="_blank">Blancpain</a></li>
+               <li class="list"><a href="https://www.omegawatches.com/en-us/" target="_blank">Omega</a></li>
+               <li class="list"><a href="https://www.zenith-watches.com/en_us" target="_blank">Zenith</a></li>
             </ul>
-           </p>
+        </p>
      </div>
 
      <div>
-        <img class="watchpic entry" src="Entry.jpg">
+        <img class="watchpic entry" src="images/Entry.jpg">
         
         <p class="entry"> 
             <p class="subhead">Entry</p>
             <ul class="entry">
-               <li><a href="https://www.damasko-watches.com/en/" target="_blank">Damasko</a></li>
-               <li><a href="https://www.oris.ch/" target="_blank">Oris</a></li>
-               <li><a href="https://www.seikowatches.com/us-en/" target="_blank">Seiko</a></li>
-               <li><a href="https://www.tourneau.com/?gad=1&gclid=CjwKCAjwzo2mBhAUEiwAf7wjkj5zxHy0BEosSssiuoX0VdcWbZVMCJV1qtYr_j-O3tV-_WU4p47ghBoCnGMQAvD_BwE" target="_blank">Longines</a></li>
-               <li><a href="https://halioswatches.com/" target="_blank">Halios</a></li>
-               <li><a href="https://www.hamiltonjewelers.com/pages/Watch-Repair.html?gclid=CjwKCAjwzo2mBhAUEiwAf7wjkgjtEf84i9QblxYs5Gl_ua8J-TEVkDgSBmKjXLwYMp5SShIsljw-rBoCsgYQAvD_BwE" target="_blank">Hamilton</a></li>
+               <li class="list"><a href="https://www.damasko-watches.com/en/" target="_blank">Damasko</a></li>
+               <li class="list"><a href="https://www.oris.ch/" target="_blank">Oris</a></li>
+               <li class="list"><a href="https://www.seikowatches.com/us-en/" target="_blank">Seiko</a></li>
+               <li class="list"><a href="https://www.tourneau.com/?gad=1&gclid=CjwKCAjwzo2mBhAUEiwAf7wjkj5zxHy0BEosSssiuoX0VdcWbZVMCJV1qtYr_j-O3tV-_WU4p47ghBoCnGMQAvD_BwE" target="_blank">Longines</a></li>
+               <li class="list"><a href="https://halioswatches.com/" target="_blank">Halios</a></li>
+               <li class="list"><a href="https://www.hamiltonjewelers.com/pages/Watch-Repair.html?gclid=CjwKCAjwzo2mBhAUEiwAf7wjkgjtEf84i9QblxYs5Gl_ua8J-TEVkDgSBmKjXLwYMp5SShIsljw-rBoCsgYQAvD_BwE" target="_blank">Hamilton</a></li>
             </ul>
            </p>
      </div>
