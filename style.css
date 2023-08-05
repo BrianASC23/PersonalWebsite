@@ -1,32 +1,75 @@
-
-
-nav{
-    display:flex;
-    justify-content: space-around;
-    padding: 10px;
- 
-    background-color: #8AAAE5;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    padding-top: 25px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    border-radius: 20px;
+    color: white;
 }
 
-#loginnav a{
-    text-decoration: none;
-    color: black;
+
+.navcontainer{
+    width: 100%;
+    background-color:#202225
 }
+
+
+.navbar{
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    height: 100px;
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.nav_menu{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    list-style: none;    
+}
+
+
+
+.nav_links{
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.nav_links:hover{
+    color: gold;
+}
+
+#navbar-logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav_links_btn{
+    background-color: #8AAAE5;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+
+}
+
+.nav_links_btn:hover{
+    background-color:red;
+    padding: 5px 15px;
+    transition: all 0.5s ease-in;
+}
+
+
 
 .list a{
     text-decoration: none;
     color: black;
 }
 
-.navbar:hover{
+.bar:hover, #loginnav a:hover{
     font-size: 20px;
+    color: gold;
 }
 
 
